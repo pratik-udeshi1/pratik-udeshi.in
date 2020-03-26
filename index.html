@@ -867,6 +867,8 @@
         <!-- Custom Js -->
         <script src="js/custom.js"></script>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109107578-3"></script>
+
 <script type="text/javascript">
 setTimeout(function(){
     // Setting hours of work..
@@ -875,11 +877,13 @@ setTimeout(function(){
     document.getElementById("how").textContent = (new Date().getFullYear()-2014-1)*250*7;
 }, 4000);
 
-
-
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-109107578-3');
 </script>
 
-</script>
+ 
+
     </body>
 
 </html>
