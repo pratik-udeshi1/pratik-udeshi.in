@@ -574,7 +574,7 @@ h6 {
 -----------------------------------------*/
 
 .home {
-    background: url('../images/home.jpg') center center no-repeat fixed;
+    background: url('../images/home2.jpg') center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -690,6 +690,7 @@ h6 {
 }
 
 .about-me .about-image img {
+    width: 70%;
     position: relative;
     z-index: 2;
     margin-left: 80px;
@@ -1139,6 +1140,7 @@ h6 {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+    height: 470px;
 }
 
 .portfolio .portfolio-content .item:hover img {
@@ -1985,7 +1987,7 @@ h6 {
     .about-me .about-image:after {
         display: none;
     }
-    
+
     .about-me .about-info .main-title {
         margin-bottom: 30px;
     }
